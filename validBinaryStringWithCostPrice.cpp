@@ -38,7 +38,9 @@ public:
                 }
                 if(all[i][j]=='1') cost+=j;
             }
-            if(cond&& cost<=k) ans.push_back(all[i]);
+            if(cond&& cost<=k) {
+                ans.push_back(all[i]);
+            }
         }
 
     }
